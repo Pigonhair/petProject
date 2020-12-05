@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML>
 <!--
 	Dopetrope by HTML5 UP
@@ -9,23 +10,23 @@
 		<title>Dopetrope by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/dog.css" />
 	</head>
-	<body class="no-sidebar is-preload">
+	<body class="left-sidebar is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<section id="header">
 
 					<!-- Logo -->
-						<h1><a href="/bbs/index.jsp">고양이 분양</a></h1>
+						<h1><a href="/bbs/index.jsp">강아지 분양</a></h1>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li><a href="index.jsp">Home</a></li>
-								<li><a href="/bbs/dog.jsp">강아지분양</a></li>
-								<li class="current"><a href="#">고양이 분양</a></li>
+								<li class="current"><a href="#">강아지분양</a></li>
+								<li><a href="cat.html">고양이 분양</a></li>
 								<li><a href="abandoned.html">유기동물 분양</a></li>
 								<li><a href="service.html">서비스</a></li>
 								<li><a href="qna.html">Q&A</a></li>
@@ -43,14 +44,14 @@
 								<!-- Portfolio -->
 									<section>
 										<header class="major">
-											<h2>고양이</h2>
+											<h2>강아지</h2>
 										</header>
 										<div class="row">
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
 													<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
 													<header>
-														<h3>러시안블루 Russianblue</h3>
+														<h3>시바견 Shibainu</h3>
 													</header>
 													<p>♡</p>
 												</section>
@@ -59,7 +60,7 @@
 												<section class="box">
 													<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
 													<header>
-														<h3>렉돌 Ragdoll</h3>
+														<h3>비숑프리제 Bichon Frise</h3>
 													</header>
 													<p>♡</p>
 												</section>
@@ -68,7 +69,7 @@
 												<section class="box">
 													<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
 													<header>
-														<h3>먼치킨 Munchikn</h3>
+														<h3>포메라니안 Pomeranian</h3>
 													</header>
 													<p>♡</p>
 												</section>
@@ -77,7 +78,7 @@
 												<section class="box">
 													<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
 													<header>
-														<h3>뱅갈 Bengal</h3>
+														<h3>웰시코기 Welshcorgi</h3>
 													</header>
 													<p>♡</p>
 												</section>
@@ -86,7 +87,7 @@
 												<section class="box">
 													<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
 													<header>
-														<h3>Abyssinian</h3>
+														<h3>푸들 Poodle</h3>
 													</header>
 													<p>♡</p>
 												</section>
@@ -95,26 +96,26 @@
 												<section class="box">
 													<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 													<header>
-														<h3>노르웨이숲 Norwegian Forest Cat</h3>
+														<h3>허스키 Siberian Husky</h3>
 													</header>
 													<p>♡</p>
 												</section>
 											</div>
 										</div>
+									</section>
 										<div class=doglist_bottom_search_form>
 											<input type ="text" placeholder="Search" name="keyword">
 										</div>
-																				<nav class="paging-block">
-													<a href="#"><span>Previous</span></a>
-													<a href="#">1</a>
-													<a href="#">2</a>
-													<a href="#">3</a>
-													<a href="#">4</a>
-													<a href="#">5</a>
-													<a href="#">6</a>
-													<a href="#"><span>Next</span></a>
-										</nav>
-									</section>
+										<div class="paging-block">
+											<a href="#"><span>Previous</span></a>
+											<a href="#">1</a>
+											<a href="#">2</a>
+											<a href="#">3</a>
+											<a href="#">4</a>
+											<a href="#">5</a>
+											<a href="#">6</a>
+											<a href="#"><span>Next</span></a>
+										</div>
 
 							</div>
 						</div>

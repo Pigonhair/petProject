@@ -21,7 +21,7 @@
 		<!-- 로그인/회원가입 버튼 -->
 		<section id="starter">
 		<div id="btn_group">
-			<button id="login_btn" onclick="location.href='/bbs/index.jsp' ">HOME</button>
+			<button id="home_btn" onclick="location.href='/bbs/index.jsp' ">HOME</button>
 			<button id="login_btn" onclick="location.href='/bbs/login/login.jsp'">로그인</button>
 		</div>
 		</section>
@@ -40,12 +40,40 @@
 							<h3 class="col-sm-2 control-label">
 								<label for="id">아이디</label>
 							</h3>
-							<div class="col-sm-6 text-left">
-								<input type="text" class="form-control" name="id" id="id"
-									value="${member.id }">
+							<div class="inputWrap">     <!-- div시작 -->
+									<div class="col-sm-3">
+								<input type="text" id="sample6_postcode" placeholder="이메일로입력해주세요"
+									name="zip_num" class="form-control" value="${member.zip_num }">
+							</div>
+							<div class="adress_button">
+								<input type="button" id="adress_button"
+									onclick="" value="인증번호 발송"
+									class="btn">
+							</div>
+									
+									<!-- div 끝 -->
 								<p style="color: red;">${idError}</p>
 							</div>
+							<h3 class="col-sm-2 control-label">
+								<label for="id">인증번호</label>
+							</h3>
+							<div class="inputWrap">     <!-- div시작 -->
+									<div class="col-sm-3">
+								<input type="text" id="sample6_postcode" placeholder="인증번호 입력"
+									name="zip_num" class="form-control" value="${member.zip_num }">
+							</div>
+							<div class="adress_button">
+								<input type="button" id="adress_button"
+									onclick="" value="확인"
+									class="btn">
+							</div>
+									
+									<!-- div 끝 -->
+								<p style="color: red;">${idError}</p>
+							</div>
+
 						</div>
+						
 						<div class="join_row">
 							<h3 class="col-sm-2 control-label">
 								<label for="pwd" id="pwd">비밀번호</label>
@@ -81,8 +109,9 @@
 							</h3>
 							<div class="bir_wrap">
 								<div class="bir_yy">
-									<span class="ps_box"> 
-									<input type="text" id="yy"placeholder="년(4자)" aria-label="년(4자)" class="int" maxlength="4">
+									<span class="ps_box"> <input type="text" id="yy"
+										placeholder="년(4자)" aria-label="년(4자)" class="int"
+										maxlength="4">
 									</span>
 								</div>
 								<div class="bir_wrap">
@@ -203,6 +232,6 @@
 	</form>
 	</div>
 	<!-- Banner -->
-	<section id="banner"> <header> </header> </section>
+	<section id="banner"> </section>
 </body>
 </html>

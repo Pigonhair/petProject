@@ -15,15 +15,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <link rel="stylesheet" href="/bbs/assets/css/login.css" />
    </head>
-   <body class="homepage is-preload">
+   <body class="/main/homepage is-preload">
       <div id="page-wrapper">
          <!-- 로그인/회원가입 버튼 -->
          <section id="starter">
-         <div id="btn_group">
+         <div id="menu">
+         
             <button id="home_btn" onclick="location.href='/bbs/index.jsp' " >HOME</button>
             <button id="register_btn" onclick="location.href='/bbs/login/register.jsp'">회원가입</button>
+            
             </div>
           </section>
+          
             
       
          <!-- Header -->
@@ -34,7 +37,7 @@
                <div >      
        <p>&nbsp;</p>
       
-      <csrf:form class="form-horizontal" action="/bbs/login.do" method="post">
+      <form class="form-horizontal" action="/bbs/login.do" method="post">
        <div class="form-group">
           <div class="col-sm-6 text-left">
              <input type="text" class="form-control" placeholder="아이디" name="id" id="id" value="${member.id }">
@@ -55,7 +58,7 @@
           <input type="submit" value="로그인" class="btn btn-success">
           </div>
        </div>
-      </csrf:form> 
+      </form> 
      </div>
    </div>
                <!-- Banner -->

@@ -1,9 +1,8 @@
-<!DOCTYPE HTML>
-<!--
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
 <html>
 	<head>
 		<title>Dopetrope by HTML5 UP</title>
@@ -24,7 +23,14 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="index.jsp">Home</a></li>
-								<li class="current"><a href="#">강아지분양</a></li>
+								<li class="current"><a href="#">강아지분양</a>
+								    <ul>
+										<li><a href="/bbs/dogCompany.jsp">업체 분양</a></li>
+										<li><a href="/bbs/dogPeople.jsp">개인 분양 </a></li>
+										<li><a href="abandoned.html">유기 분양</a></li>
+									</ul> 
+								</li>
+								
 								<li><a href="cat.html">고양이 분양</a></li>
 								<li><a href="abandoned.html">유기동물 분양</a></li>
 								<li><a href="service.html">서비스</a></li>
@@ -204,4 +210,6 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+</html>
+</body>
 </html>

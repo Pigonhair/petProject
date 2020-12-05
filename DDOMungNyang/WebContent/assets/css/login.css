@@ -252,38 +252,45 @@ input, select, textarea {
 			font-size: 1.5em;
 			padding: 0.75em 1.5em 0.75em 1.5em;
 		}
+		
+		
+	#page-wrapper > section {
+		margin-bottom: 0;
+	}
+	
 /* home,register btn */
 	#starter {
 		position: relative;
 		background: #ffffff;
-		text-align: right;
-		padding-right: 20px;
+		text-align: right;	
 		
 	}
 	#home_btn {
-		border-top-left-radius:3px;
-		border-bottom-left-radius:3px;
+		margin-top: 20px;
+		padding-top:11px; 
+		padding-bottom:7px;
+		border-radius:10px;
+		margin-right:10px;
 				}
+	#home_btn:hover{background-color:#ee99ac;}			
 	#register_btn{
-		border-top-left-radius:3px;
-		border-bottom-left-radius:3px;
+		margin-top: 20px;
+		padding-top:7.5px; 
+		padding-bottom:7.5px;
+		border-radius:10px;
+		margin-right: 20px;
 			}
-			
-	#btn_group button{
+	#register_btn:hover{background-color:#ee99ac;}
+	
+	#btn_group button {
 	position: relative;
 	font-style: italic;
-	background-color:#d52349;
-	margin-top: 20px; 
-	color:#d52349;
-	width:100px;
-	padding:5px;
-	font-size:10pt;
-	}
+	background-color: #d52349;
+	color: #d52349;
 	
-	#btn_group button:hover{
 
-	 background-color:#ec8aa0;
-	}
+}
+	
 /* Header */
 
 	#header {

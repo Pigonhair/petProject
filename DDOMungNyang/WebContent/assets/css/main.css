@@ -1563,6 +1563,7 @@ input, select, textarea {
 			}
 
 	footer {
+		
 		margin: 2.25em 0 0 0;
 	}
 
@@ -2067,31 +2068,21 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 		text-align: right;
+		padding-top :20px;
 		padding-right: 20px;
 		
 	}
 	#login_btn {
-		border-top-left-radius:3px;
-		border-bottom-left-radius:3px;
+		border-radius:10px;
+		margin-right:10px;
 				}
+	#login_btn:hover{background-color:#ee99ac;}
 	#register_btn{
-		border-top-left-radius:3px;
-		border-bottom-left-radius:3px;
+		border-radius:10px;
 			}
-	#btn_group button{
-	position: relative;
-	font-style: italic;
-	background-color:#d52349;
-	margin-top: 20px; 
-	color:#d52349;
-	width:100px;
-	padding:5px;
-	font-size:10pt;
-	}
-	#btn_group button:hover{
+	#register_btn:hover{background-color:#ee99ac;}
 
-	 background-color:#ec8aa0;
-	}
+	
 /* Header */
 
 	#header {
@@ -2132,7 +2123,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #000000;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2143,7 +2134,8 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					background: #d52349;
+					color:#fff;
 				}
 
 				#nav > ul > li.current > a {
@@ -2204,7 +2196,7 @@ input, select, textarea {
 
 	#banner {
 		height: 400px;
-		background:url("../../images/dog.png") no-repeat center center scroll;
+		background:url("../../images/main6.jpg") no-repeat center center scroll;
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
  		background-size: cover;
@@ -2327,6 +2319,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
+		background-color:#000000;
 		color: #858484;
 		
 	}
@@ -2792,6 +2785,10 @@ input, select, textarea {
 			footer {
 				margin: 2em 0 0 0;
 			}
+			
+			
+			
+			
 
 		/* Box */
 
@@ -2939,7 +2936,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 40px 0 20px 0;
+				padding: 20px 0 20px 0;
 			}
 
 	}

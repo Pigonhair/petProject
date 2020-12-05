@@ -13,7 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="homepage is-preload">
+	<!--  <body class="homepage is-preload"> -->
 		<div id="page-wrapper">
 			<!-- 로그인/회원가입 버튼 -->
 			<section id="starter">
@@ -48,14 +48,14 @@
 							<ul>
 								<li><a href="/bbs/index.jsp">ABOUT US</a></li>
 								<li>
-									<a href="dog.html">강아지분양</a>
-									<!-- <ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li>
-											<a href="#">Phasellus consequat</a>
-											<ul>
+									<a >강아지분양</a>
+									 <ul>
+										<li><a href="/bbs/dogCompany.jsp">업체 분양</a></li>
+										<li><a href="/bbs/dogPeople.jsp">개인 분양 </a></li>
+										<li><a href="abandoned.html">유기 분양</a></li>
+									</ul> 
+								</li>
+											<!-- <ul>
 												<li><a href="#">Magna phasellus</a></li>
 												<li><a href="#">Etiam dolore nisl</a></li>
 												<li><a href="#">Veroeros feugiat</a></li>
@@ -63,11 +63,17 @@
 												<li><a href="#">Dolore adipiscing</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul> -->
-								</li>
-								<li><a href="cat.html">고양이 분양</a></li>
-								<li><a href="abandoned.html">유기동물 분양</a></li>
+										<li><a href="#">Veroeros feugiat</a></li> -->
+									
+								
+								<li><a>고양이 분양</a>
+								<ul>
+										<li><a href="#">업체 분양</a></li>
+										<li><a href="#">개인 분양 </a></li>
+										<li><a href="#">유기 분양</a></li>
+										</ul> 
+										</li>
+								<li><a href="#">심리테스트</a></li>
 								<li><a href="service.html">서비스</a></li>
 								<li><a href="qna.html">Q&A</a></li>
 							</ul>
@@ -131,7 +137,43 @@
                   </div>
                </div>
             </section>
-
+                 <section id="main">
+               <div class="container">
+                <header class="major">
+                            <h2>인기순위</h2>
+                             </header>
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<section class="first">
+									
+										<i class="icon solid featured fa-cog"></i>
+										<header>
+											<h2>인기순위 1위</h2>
+										</header>
+										<p>귀여운 갱얼쥐1</p>
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section class="middle">
+										<i class="icon solid featured alt fa-bolt"></i>
+										<header>
+											<h2>인기순위 2위</h2>
+										</header>
+										<p>앙칼진 냥이</p>
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section class="last">
+										<i class="icon solid featured alt2 fa-star"></i>
+										<header>
+											<h2>인기순위3위</h2>
+										</header>
+										<p>멍냥</p>
+									</section>
+								</div>
+							</div>
+					</div>
+					</section>
 
          <!-- Footer -->
            <section id="footer">
@@ -139,9 +181,7 @@
                <div class="row">
                   <div class="col-8 col-12-medium">
                      <section id="footer">
-                        <header>
-                           <h2>Blandit nisl adipiscing</h2>
-                        </header>
+                       
                         <ul class="dates">
                            <li><span class="date">연중무휴</span>
                               
