@@ -2,140 +2,139 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<html>
-	<head>
-		<title>Dopetrope by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/dog.css" />
-		<link rel="stylesheet" href="assets/css/checkbox.css" />
-	</head>
-	<body class="left-sidebar is-preload">
-		<div id="page-wrapper">
+   <head>
+      <title>Dopetrope by HTML5 UP</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="assets/css/dog.css" />
+      <link rel="stylesheet" href="assets/css/checkbox.css" />
+   </head>
+   <body class="left-sidebar is-preload">
+      <div id="page-wrapper">
 
-			<!-- Header -->
-				<section id="header">
+         <!-- Header -->
+            <section id="header">
 
-					<!-- Logo -->
-						<h1><a href="/bbs/index.jsp">강아지 분양</a></h1>
+               <!-- Logo -->
+                  <h1><a href="/bbs/index.jsp">강아지 분양</a></h1>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.jsp">Home</a></li>
-								<li class="current"><a href="#">강아지분양</a>
-								    <ul>
-										<li><a href="dog.html">업체 분양</a></li>
-										<li><a href="/bbs/dogPeople.jsp">개인 분양 </a></li>
-										<li><a href="abandoned.html">유기 분양</a></li>
-									</ul> 
-								</li>
-								
-								<li><a href="cat.html">고양이 분양</a></li>
-								<li><a href="abandoned.html">유기동물 분양</a></li>
-								<li><a href="service.html">서비스</a></li>
-								<li><a href="qna.html">Q&A</a></li>
-							</ul>
-						</nav>
+               <!-- Nav -->
+                  <nav id="nav">
+                     <ul>
+                        <li><a href="index.jsp">Home</a></li>
+                        <li class="current"><a href="#">강아지분양</a>
+                            <ul>
+                              <li><a href="dog.html">업체 분양</a></li>
+                              <li><a href="/bbs/dogPeople.jsp">개인 분양 </a></li>
+                              <li><a href="abandoned.html">유기 분양</a></li>
+                           </ul> 
+                        </li>
+                        
+                        <li><a href="cat.html">고양이 분양</a></li>
+                        <li><a href="abandoned.html">유기동물 분양</a></li>
+                        <li><a href="service.html">서비스</a></li>
+                        <li><a href="qna.html">Q&A</a></li>
+                     </ul>
+                  </nav>
 
-				</section>
+            </section>
 
-			<!-- Main -->
-				<section id="main">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
+         <!-- Main -->
+            <section id="main">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12">
 
-								<!-- Portfolio -->
-									<section>
-										<header class="major">
-											<h2>강아지</h2>
-										</header>
-										<div class="row">
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-													<header>
-														<h3>시바견 Shibainu</h3>
-													</header>
-													<p><input id="heart" type="checkbox	" />
-                                                    <label for="heart">❤</label></p>
-												</section>
-											</div>
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-													<header>
-														<h3>비숑프리제 Bichon Frise</h3>
-													</header>
-													<p><input id="heart" type="checkbox" />
-                                                    <label for="heart">❤</label></p>
-												</section>
-											</div>
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-													<header>
-														<h3>포메라니안 Pomeranian</h3>
-													</header>
-													<p><input id="heart" type="checkbox" />
-                                                    <label for="heart">❤</label></p>
-												</section>
-											</div>
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-													<header>
-														<h3>웰시코기 Welshcorgi</h3>
-													</header>
-													<p><input id="heart4" type="checkbox" />
-                                                    <label for="heart">❤</label></p>
-												</section>
-											</div>
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-													<header>
-														<h3>푸들 Poodle</h3>
-													</header>
-													<p><input id="heart5" type="checkbox" />
-                                                    <label for="heart">❤</label></p>
-												</section>
-											</div>
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
-													<header>
-														<h3>허스키 Siberian Husky</h3>
-													</header>
-													<p><input id="heart6" type="checkbox" />
-                                                    <label for="heart">❤</label></p>
-												</section>
-											</div>
-										</div>
-									</section>
-										<div class=doglist_bottom_search_form>
-											<input type ="text" placeholder="Search" name="keyword">
-										</div>
-										<div class="paging-block">
-											<a href="#"><span>Previous</span></a>
-											<a href="#">1</a>
-											<a href="#">2</a>
-											<a href="#">3</a>
-											<a href="#">4</a>
-											<a href="#">5</a>
-											<a href="#">6</a>
-											<a href="#"><span>Next</span></a>
-										</div>
+                        <!-- Portfolio 	-->
+                           <section>
+                              <header class="major">
+                                 <h2>강아지</h2>
+                              </header>
+                              <div class="row">
+                                 <div class="col-4 col-6-medium col-12-small">
+                                    <section class="box">
+                                       <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+                         
+                                       <header>
+                                          <h3>시바견 Shibainu</h3>
+                                       </header>
+                                       <p><input type="checkbox" id="heart1"/>
+                                       <label for="heart1">❤</label></p>
+                                    </section>
+                                 </div>
+                                 <div class="col-4 col-6-medium col-12-small">
+                                    <section class="box">
+                                       <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                                       <header>
+                                          <h3>비숑프리제 Bichon Frise</h3>
+                                       </header>
+                                       <p><input id="heart2" type="checkbox" />
+                                          <label for="heart2">❤</label></p>
+                                    </section>
+                                 </div>
+                                 <div class="col-4 col-6-medium col-12-small">
+                                    <section class="box">
+                                       <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+                                       <header>
+                                          <h3>포메라니안 Pomeranian</h3>
+                                       </header>
+                                       <p><input id="heart3" type="checkbox" />
+                                                    <label for="heart3">❤</label></p>
+                                    </section>
+                                 </div>
+                                 <div class="col-4 col-6-medium col-12-small">
+                                    <section class="box">
+                                       <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+                                       <header>
+                                          <h3>웰시코기 Welshcorgi</h3>
+                                       </header>
+                                       <p><input id="heart4" type="checkbox" />
+                                                    <label for="heart4">❤</label></p>
+                                    </section>
+                                 </div>
+                                 <div class="col-4 col-6-medium col-12-small">
+                                    <section class="box">
+                                       <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+                                       <header>
+                                          <h3>푸들 Poodle</h3>
+                                       </header>
+                                       <p><input id="heart5" type="checkbox" />
+                                                    <label for="heart5">❤</label></p>
+                                    </section>
+                                 </div>
+                                 <div class="col-4 col-6-medium col-12-small">
+                                    <section class="box">
+                                       <a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+                                       <header>
+                                          <h3>허스키 Siberian Husky</h3>
+                                       </header>
+                                       <p><input id="heart6" type="checkbox" />
+                                                    <label for="heart6">❤</label></p>
+                                    </section>
+                                 </div>
+                              </div>
+                           </section>
+                              <div class=doglist_bottom_search_form>
+                                 <input type ="text" placeholder="Search" name="keyword">
+                              </div>
+                              <div class="paging-block">
+                                 <a href="#"><span>Previous</span></a>
+                                 <a href="#">1</a>
+                                 <a href="#">2</a>
+                                 <a href="#">3</a>
+                                 <a href="#">4</a>
+                                 <a href="#">5</a>
+                                 <a href="#">6</a>
+                                 <a href="#"><span>Next</span></a>
+                              </div>
 
-							</div>
-						</div>
-					</div>
-				</section>
+                     </div>
+                  </div>
+               </div>
+            </section>
 
-			<!-- Footer -->
-				<section id="footer">
+         <!-- Footer -->
+            <section id="footer">
             <div class="container">
                <div class="row">
                   <div class="col-8 col-12-medium">
@@ -203,20 +202,20 @@
 
                   </div>
                </div>
+               </div>
          </section>
 
 
-		</div>
+      </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
-</body>
+      <!-- Scripts -->
+         <script src="assets/js/jquery.min.js"></script>
+         <script src="assets/js/jquery.dropotron.min.js"></script>
+         <script src="assets/js/browser.min.js"></script>
+         <script src="assets/js/breakpoints.min.js"></script>
+         <script src="assets/js/util.js"></script>
+         <script src="assets/js/main.js"></script>
+         
+   
+   </body>
 </html>
