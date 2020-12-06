@@ -53,8 +53,7 @@
                               <div class="row">
                                  <div class="col-4 col-6-medium col-12-small">
                                     <section class="box">
-                                       <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-                         
+                                       <a href="#" class="image featured"><img src="images/dog1/sibal.jpg" alt="" /></a>
                                        <header>
                                           <h3>시바견 Shibainu</h3>
                                        </header>
@@ -64,7 +63,7 @@
                                  </div>
                                  <div class="col-4 col-6-medium col-12-small">
                                     <section class="box">
-                                       <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                                       <a href="#" class="image featured"><img src="images/dog1/bi.jpg" alt="" /></a>
                                        <header>
                                           <h3>비숑프리제 Bichon Frise</h3>
                                        </header>
@@ -74,42 +73,42 @@
                                  </div>
                                  <div class="col-4 col-6-medium col-12-small">
                                     <section class="box">
-                                       <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+                                       <a href="#" class="image featured"><img src="images/dog1/pome.jpg" alt="" /></a>
                                        <header>
                                           <h3>포메라니안 Pomeranian</h3>
                                        </header>
                                        <p><input id="heart3" type="checkbox" />
-                                                    <label for="heart3">❤</label></p>
+                                          <label for="heart3">❤</label></p>
                                     </section>
                                  </div>
                                  <div class="col-4 col-6-medium col-12-small">
                                     <section class="box">
-                                       <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+                                       <a href="#" class="image featured"><img src="images/dog1/wel.jpg" alt="" /></a>
                                        <header>
                                           <h3>웰시코기 Welshcorgi</h3>
                                        </header>
                                        <p><input id="heart4" type="checkbox" />
-                                                    <label for="heart4">❤</label></p>
+                                          <label for="heart4">❤</label></p>
                                     </section>
                                  </div>
                                  <div class="col-4 col-6-medium col-12-small">
                                     <section class="box">
-                                       <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+                                       <a href="#" class="image featured"><img src="images/dog1/poodle.jpg" alt="" /></a>
                                        <header>
                                           <h3>푸들 Poodle</h3>
                                        </header>
                                        <p><input id="heart5" type="checkbox" />
-                                                    <label for="heart5">❤</label></p>
+                                          <label for="heart5">❤</label></p>
                                     </section>
                                  </div>
                                  <div class="col-4 col-6-medium col-12-small">
                                     <section class="box">
-                                       <a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+                                       <a href="#" class="image featured"><img src="images/dog1/husky.jpg" alt="" /></a>
                                        <header>
                                           <h3>허스키 Siberian Husky</h3>
                                        </header>
                                        <p><input id="heart6" type="checkbox" />
-                                                    <label for="heart6">❤</label></p>
+                                          <label for="heart6">❤</label></p>
                                     </section>
                                  </div>
                               </div>
